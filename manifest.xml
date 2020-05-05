@@ -1008,4 +1008,13 @@
         </interface>
         <fqname>@1.1::IMlipayService/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>android.hardware.power.stats</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IPowerStats</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </manifest>
