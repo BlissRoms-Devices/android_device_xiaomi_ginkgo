@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "github",
+    "repository": "BlissRoms-Devices/android_kernel_xiaomi_ginkgo",
+    "target_path": "kernel/xiaomi/ginkgo",
+    "branch": "Q"
+  }
+]
