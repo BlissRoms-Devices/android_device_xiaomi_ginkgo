@@ -23,6 +23,9 @@ TARGET_SCREEN_WIDTH := 1080
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-pe
+    
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    lineage-sdk/
 
 ifeq ($(CURRENT_BUILD_TYPE), nogapps)
 DEVICE_PACKAGE_OVERLAYS += \
