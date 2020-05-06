@@ -23,10 +23,10 @@ $(call inherit-product, device/xiaomi/willow/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_willow
+PRODUCT_NAME := bliss_willow
 PRODUCT_DEVICE := willow
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8T
